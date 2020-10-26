@@ -6,7 +6,7 @@
 #define OREO_LUNAR_UM_DRIVER_H
 
 #include "includes.h"
-#include "../oreo driver/common.h"
+#include "../kernelmode/common.h"
 
 inline bool validate_packet(const oreo_net::packet& packet)
 {

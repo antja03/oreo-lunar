@@ -9,13 +9,23 @@
 
 std::mutex Mutex;
 
+void newline()
+{
+    std::cout << std::endl;
+}
+
 template<typename T>
 void logType(T data)
 {
     std::cout << data << std::endl;
 }
 
-void log(const char* data)
+void log(std::string data)
+{
+    std::cout << data;
+}
+
+void log_newline(std::string data)
 {
     std::cout << data << std::endl;
 }

@@ -8,5 +8,6 @@
 #include <iostream>
 #include <Windows.h>
 #include <tlhelp32.h>
+#include <string>
 
 #endif //OREO_LUNAR_UM_INCLUDES_H
