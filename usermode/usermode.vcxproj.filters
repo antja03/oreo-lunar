@@ -16,35 +16,8 @@
     <Filter Include="source\common">
       <UniqueIdentifier>{808c8ddb-0b70-45f7-afed-e648934c3ba3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="source\imgui">
-      <UniqueIdentifier>{5d1dc56f-3876-464e-a3ad-db15ee46cd42}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="imconfig.h">
-      <Filter>source\imgui</Filter>
-    </ClInclude>
-    <ClInclude Include="imgui.h">
-      <Filter>source\imgui</Filter>
-    </ClInclude>
-    <ClInclude Include="imgui_impl_dx9.h">
-      <Filter>source\imgui</Filter>
-    </ClInclude>
-    <ClInclude Include="imgui_impl_win32.h">
-      <Filter>source\imgui</Filter>
-    </ClInclude>
-    <ClInclude Include="imgui_internal.h">
-      <Filter>source\imgui</Filter>
-    </ClInclude>
-    <ClInclude Include="imstb_rectpack.h">
-      <Filter>source\imgui</Filter>
-    </ClInclude>
-    <ClInclude Include="imstb_textedit.h">
-      <Filter>source\imgui</Filter>
-    </ClInclude>
-    <ClInclude Include="imstb_truetype.h">
-      <Filter>source\imgui</Filter>
-    </ClInclude>
     <ClInclude Include="feature.h">
       <Filter>source\features</Filter>
     </ClInclude>
@@ -74,31 +47,8 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="imgui.cpp">
-      <Filter>source\imgui</Filter>
-    </ClCompile>
-    <ClCompile Include="imgui_demo.cpp">
-      <Filter>source\imgui</Filter>
-    </ClCompile>
-    <ClCompile Include="imgui_draw.cpp">
-      <Filter>source\imgui</Filter>
-    </ClCompile>
-    <ClCompile Include="imgui_impl_dx9.cpp">
-      <Filter>source\imgui</Filter>
-    </ClCompile>
-    <ClCompile Include="imgui_impl_win32.cpp">
-      <Filter>source\imgui</Filter>
-    </ClCompile>
-    <ClCompile Include="imgui_widgets.cpp">
-      <Filter>source\imgui</Filter>
-    </ClCompile>
     <ClCompile Include="oreo.cpp">
       <Filter>source</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="imgui.ini">
-      <Filter>source\imgui</Filter>
-    </None>
   </ItemGroup>
 </Project>
