@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Driver Files">
+      <UniqueIdentifier>{8E41214B-6785-4CFE-B992-037D68949A14}</UniqueIdentifier>
+      <Extensions>inf;inv;inx;mof;mc;</Extensions>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{c85da384-7976-460a-8a6d-664cca50814a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\utils">
+      <UniqueIdentifier>{ed43c989-f983-464b-b683-f1235833a306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\ksocket">
+      <UniqueIdentifier>{e0a98542-1cc9-4d23-b9bb-3c43b6cbba8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\definitions">
+      <UniqueIdentifier>{fd396d55-76c2-4f18-b2c5-908d41d6194e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\common">
+      <UniqueIdentifier>{bdff3d00-44d6-4233-94cb-ebe70cbe1e21}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Inf Include="oreodriver.inf">
+      <Filter>Driver Files</Filter>
+    </Inf>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ksocket\berkeley.c">
+      <Filter>source\ksocket</Filter>
+    </ClCompile>
+    <ClCompile Include="ksocket\ksocket.c">
+      <Filter>source\ksocket</Filter>
+    </ClCompile>
+    <ClCompile Include="driver.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="server.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h">
+      <Filter>source\common</Filter>
+    </ClInclude>
+    <ClInclude Include="definitions.h">
+      <Filter>source\definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.h">
+      <Filter>source\definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>source\definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="vars.h">
+      <Filter>source\definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="ksocket\berkeley.h">
+      <Filter>source\ksocket</Filter>
+    </ClInclude>
+    <ClInclude Include="ksocket\ksocket.h">
+      <Filter>source\ksocket</Filter>
+    </ClInclude>
+    <ClInclude Include="mouse.h">
+      <Filter>source\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>source\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="sockets.h">
+      <Filter>source</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

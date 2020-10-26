@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{0579bc37-d1a1-4fd5-89ac-0a8791518a13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\utils">
+      <UniqueIdentifier>{26e74ae2-aa2d-4492-8e45-732837866c57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\features">
+      <UniqueIdentifier>{4bfa2520-45ec-45ef-82c6-ff88b6a613c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\constants">
+      <UniqueIdentifier>{1336ab68-e680-4f8a-9ae9-f7f38128a45a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\common">
+      <UniqueIdentifier>{808c8ddb-0b70-45f7-afed-e648934c3ba3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\imgui">
+      <UniqueIdentifier>{5d1dc56f-3876-464e-a3ad-db15ee46cd42}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imconfig.h">
+      <Filter>source\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>source\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx9.h">
+      <Filter>source\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>source\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>source\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>source\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>source\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>source\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="feature.h">
+      <Filter>source\features</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>source\features</Filter>
+    </ClInclude>
+    <ClInclude Include="constants.h">
+      <Filter>source\constants</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernelmode\common.h">
+      <Filter>source\common</Filter>
+    </ClInclude>
+    <ClInclude Include="collection.h">
+      <Filter>source\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.h">
+      <Filter>source\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>source\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>source\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="process.h">
+      <Filter>source\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="imgui.cpp">
+      <Filter>source\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>source\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>source\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx9.cpp">
+      <Filter>source\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>source\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>source\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="oreo.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgui.ini">
+      <Filter>source\imgui</Filter>
+    </None>
+  </ItemGroup>
+</Project>
